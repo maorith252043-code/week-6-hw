@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>HTMLL</title>
+</head>
+<body>
+    <h2>--User personal information--</h2>
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="Email" name="Email"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="age">age:</label><br>
+        <input type="age" id="age" name="age"><br><br>
+
+        <label>Enter your gender:</label>
+            <div class="gender-group">
+                <input type="radio" name="gender" value="male" id="male" required />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female" />
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="others" id="others" />
+                <label for="others">Others</label>
+
+<br>
+<br>
+                <label for="dob">Enter your Date of Birth:</label>
+                <br>    
+                <input type="date" id="dob" name="dob" required />
+<br>
+<br>
+                <label for="country">Choose your country:</label>
+<br>
+                <select id="country" name="country" required>
+             <option value="">-- Select Country --</option>
+             <option value="kh">Cambodia</option>
+             <option value="th">Malaysia</option>
+             <option value="vn">Vietnam</option>
+             <option value="us">United States</option>
+         </select>
+<br>         
+<br>
+                <input type="submit" value="Submit">
+            </div>
+    </form>
+</body>
